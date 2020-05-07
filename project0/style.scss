@@ -1,0 +1,93 @@
+$fonts: Geneva, Verdana, sans-serif;
+$pads: 20px;
+
+
+.about{
+    color:white;
+    background: rgba($color: #38ca38, $alpha: 0.5);
+    font-family: $fonts;
+    padding: $pads;
+}
+
+.about{
+    h1{
+        padding:20px;
+        font-family: $fonts;
+        font-size: 6em;
+    }
+     p{
+        padding-left: pads;
+        font-family: $fonts;
+        font-size: 1.7em;
+    }
+    
+}
+@media(max-width: 575.98px){
+    .about{
+        h1{
+           font-size: 5em;
+        }
+        p{
+            font-size: 1.3em;
+        }
+    }
+}
+.mission{
+    padding: 10px;
+    text-align: center;
+    p{
+        background-attachment: fixed;
+        font-family: $fonts;
+        font-size: 18px;
+    }
+    ul{
+    padding:400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+    
+} 
+
+.form-group{
+    color: rgb(88, 241, 96);
+    font-family: $fonts;
+    font-size: 2em;
+}
+
+.input{
+    padding-left: 20px;
+    
+}
+
+#reason{
+    padding-left: $pads;
+    padding-top: 10px;
+}
+.form{
+    padding-left: $pads;
+    padding-top: 10px;
+    padding-bottom:20px ;
+  
+}
+.send{
+    padding-bottom: 50px;
+}
+
+.images{
+    height: 250px;
+    width: 250px;
+}
+.team{
+    h2{
+        color:  rgb(88, 241, 96);
+        font-family: Gevena, Verdana, sans-serif;
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+    .table{
+        p{
+            font-family: Gevena, Verdana, sans-serif;
+            
+        }
+    }
+}
